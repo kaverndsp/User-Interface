@@ -23,6 +23,7 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 	border: 1px solid grey;
+	text-decoration:none;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -62,37 +63,8 @@ html, body {
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
-    margin-bottom: 15px;
+	margin-bottom: 15px;
+	
 }
 
 /* Your code starts here! */
-header{
-	height:70vh;
-}
-
-
-header nav{
-	width:100%;
-	
- }
-
- .headerlogo{
-	 display:inline-block;
-	 margin-left:90%;
- }
- 
- .links{
-	 display:inline-block;
-	 width: 40%;
-	 
-	 
- }
-
- nav a{
-	
-	letter-spacing:4px;
-	/* margin-left:0 1%; */
-	word-spacing:10px;
-	
-	
-  }
