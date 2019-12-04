@@ -68,3 +68,42 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+
+
+nav {
+    display: inline-block;
+	width: 1400px;
+	word-spacing: 200px;
+    
+}
+
+nav a{
+	word-spacing: 300px;
+	
+}
+
+.logo {
+   margin-left:90%;
+    
+}
+
+.one .containter .containtertext h1{
+	/* margin:10%; */
+	width:10%;
+	text-align:center;
+	display: inline-block;
+	font-size: 80px;
+	margin-left:15%;
+ 
+}
+
+.one h2{
+	border: 1px solid black;
+	font-size: 30px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.imagetwo{
+	margin-left:80%;
+}
