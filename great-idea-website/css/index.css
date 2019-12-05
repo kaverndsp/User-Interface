@@ -22,8 +22,9 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
-	border: 1px solid grey;
+	/* border: 1px solid grey; */
 	text-decoration:none;
+	
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -57,7 +58,9 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
+	width: 1000px;
+	margin: 0% auto;
 }
 
 h1, h2, h3, h4, h5 {
@@ -69,41 +72,73 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
-
-
-nav {
-    display: inline-block;
-	width: 1400px;
-	word-spacing: 200px;
-    
+body {
+	margin: 0% auto;
 }
 
-nav a{
-	word-spacing: 300px;
-	
+.container nav {
+	display: inline-block;
+	text-align: center;
+	height: 200px;
+	word-spacing: 60px;
+
 }
 
 .logo {
-   margin-left:90%;
-    
+	float: right;
+	padding: 15px 15px 15px 0px;
 }
-
-.one .containter .containtertext h1{
-	/* margin:10%; */
-	width:10%;
-	text-align:center;
-	display: inline-block;
-	font-size: 80px;
-	margin-left:15%;
- 
-}
-
-.one h2{
-	border: 1px solid black;
-	font-size: 30px;
+nav .links {
 	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	margin: 25px;
 }
 
-.imagetwo{
-	margin-left:80%;
+
+
+
+
+.middlesec .middletext h3 {
+	font-family: Arial, Helvetica, sans-serif;
+	vertical-align: text-top;
+	font-size: 15px;
+	border: 1px solid black;
+}
+
+
+.middlesec .middletext {
+	display: inline-block;
+	vertical-align: top;
+	width: 50%;
+	font-size: 80px;
+	margin: 100px 0px;
+	text-align: center;
+	padding: 0px 60px;
+	
+}
+
+
+
+
+
+
+.container .textone {
+	display: inline-block;
+	width: 45%;
+	margin: 2%;
+	padding: 25px 0; 
+	line-height: 20px;
+}
+
+.container .texttwo {
+	display: inline-block;
+	width: 30%;
+	margin: 2%;	
+	padding: 25px 0px;	
+	line-height: 20px;	
+}
+
+
+footer {
+	margin:2%; 
 }
